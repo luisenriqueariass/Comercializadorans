@@ -22,15 +22,27 @@
   "materials": {
     "title": "What We Buy",
     "subtitle": "We purchase a wide variety of ferrous and non-ferrous metals.",
-    "items": [
-      { "name": "Iron", "desc": "Structures, beams, rebar, and iron pieces in general" },
-      { "name": "Steel", "desc": "Steel scrap in any form" },
-      { "name": "Aluminum", "desc": "Profiles, cans, parts, and cast aluminum" },
-      { "name": "Copper", "desc": "Cable, piping, and copper parts" },
-      { "name": "Bronze", "desc": "Parts, valves, and bronze scrap" },
-      { "name": "Zinc", "desc": "Zinc sheets and parts" },
-      { "name": "Lead", "desc": "Batteries and lead parts" },
-      { "name": "Stainless Steel", "desc": "Stainless steel in any form" }
+    "categories": [
+      {
+        "name": "Brass",
+        "items": ["Brass Scrap", "Brass Radiators", "A/C Mixed Radiators"]
+      },
+      {
+        "name": "Aluminum",
+        "items": ["Aluminum Profile", "Mixed Aluminum", "Hard Aluminum", "Aluminum Radiators", "Lithography", "Industrial Trim"]
+      },
+      {
+        "name": "Steel & Iron",
+        "items": ["Short Steel", "Long Steel", "Alloy Iron", "Long Iron", "Galvanized Sheeting", "Aerosol Cans", "Steel Pots"]
+      },
+      {
+        "name": "Lead",
+        "items": ["Lead Scrap", "Lead Ingot", "Battery"]
+      },
+      {
+        "name": "Engines",
+        "items": ["Electric & Combustion Engines"]
+      }
     ]
   },
   "howItWorks": {

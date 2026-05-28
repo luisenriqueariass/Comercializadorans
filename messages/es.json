@@ -22,15 +22,27 @@
   "materials": {
     "title": "¿Qué compramos?",
     "subtitle": "Adquirimos una amplia variedad de metales ferrosos y no ferrosos.",
-    "items": [
-      { "name": "Hierro", "desc": "Estructuras, vigas, varillas y piezas de hierro en general" },
-      { "name": "Acero", "desc": "Chatarra de acero en cualquier presentación" },
-      { "name": "Aluminio", "desc": "Perfiles, latas, piezas y aluminio fundido" },
-      { "name": "Cobre", "desc": "Cable, tubería y piezas de cobre" },
-      { "name": "Bronce", "desc": "Piezas, válvulas y chatarra de bronce" },
-      { "name": "Zinc", "desc": "Láminas y piezas de zinc" },
-      { "name": "Plomo", "desc": "Baterías y piezas de plomo" },
-      { "name": "Inoxidable", "desc": "Acero inoxidable en cualquier presentación" }
+    "categories": [
+      {
+        "name": "Latón",
+        "items": ["Latón Chatarra", "Radiadores de Latón", "Radiadores Mixtos A/C"]
+      },
+      {
+        "name": "Aluminio",
+        "items": ["Aluminio Perfil", "Aluminio Mixto", "Aluminio Duro", "Rad. de Aluminio", "Litografía", "Recorte Industrial"]
+      },
+      {
+        "name": "Acero e Hierro",
+        "items": ["Acero Corto", "Acero Largo", "Hierro Ligado", "Hierro Largo", "Calamina", "Aerosoles", "Pote"]
+      },
+      {
+        "name": "Plomo",
+        "items": ["Plomo Chatarra", "Plomo Lingote", "Batería"]
+      },
+      {
+        "name": "Motores",
+        "items": ["Motores Eléctricos y de Combustión"]
+      }
     ]
   },
   "howItWorks": {
