@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Home",
+    "materials": "Materials",
+    "howItWorks": "How it works",
+    "contact": "Contact",
+    "cta": "Contact Us"
+  },
+  "hero": {
+    "headline": "We Buy Your Scrap Metal",
+    "subheadline": "Venezuelan company specializing in the purchase of ferrous and non-ferrous metals. Maracay, Aragua.",
+    "ctaWhatsapp": "Message us on WhatsApp",
+    "ctaMaterials": "See materials"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Comercializadora NS is a company located in the San Vicente Industrial Zone in Maracay, dedicated to the purchase and trading of recycled metals. We offer fair prices, fast service, and immediate payment.",
+    "badge1": "Venezuelan company",
+    "badge2": "Immediate payment",
+    "badge3": "Maracay, Aragua"
+  },
+  "materials": {
+    "title": "What We Buy",
+    "subtitle": "We purchase a wide variety of ferrous and non-ferrous metals.",
+    "items": [
+      { "name": "Iron", "desc": "Structures, beams, rebar, and iron pieces in general" },
+      { "name": "Steel", "desc": "Steel scrap in any form" },
+      { "name": "Aluminum", "desc": "Profiles, cans, parts, and cast aluminum" },
+      { "name": "Copper", "desc": "Cable, piping, and copper parts" },
+      { "name": "Bronze", "desc": "Parts, valves, and bronze scrap" },
+      { "name": "Zinc", "desc": "Zinc sheets and parts" },
+      { "name": "Lead", "desc": "Batteries and lead parts" },
+      { "name": "Stainless Steel", "desc": "Stainless steel in any form" }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "A simple, transparent three-step process.",
+    "step1Title": "Contact Us",
+    "step1Desc": "Message us on WhatsApp or call us. Tell us what material you have and the approximate quantity.",
+    "step2Title": "We Evaluate",
+    "step2Desc": "We review the material, determine the price based on current market rates, and make you a fair offer.",
+    "step3Title": "Immediate Payment",
+    "step3Desc": "We agree on a delivery or pickup location and payment is made immediately."
+  },
+  "contact": {
+    "title": "Contact & Location",
+    "subtitle": "We're in Maracay, Aragua. Write to us and we'll respond right away.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "Zona Industrial San Vicente, Calle Campesina, Galpón N° 36, Maracay, Aragua 2103, Venezuela",
+    "ctaWhatsapp": "Open WhatsApp",
+    "ctaEmail": "Send email"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Buying metals in Maracay, Venezuela."
+  }
+}

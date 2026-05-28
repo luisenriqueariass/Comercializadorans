@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "materials": "Materiales",
+    "howItWorks": "¿Cómo funciona?",
+    "contact": "Contáctanos",
+    "cta": "Contáctanos"
+  },
+  "hero": {
+    "headline": "Compramos tu chatarra",
+    "subheadline": "Empresa venezolana especializada en la compra de metales ferrosos y no ferrosos. Maracay, Aragua.",
+    "ctaWhatsapp": "Escríbenos por WhatsApp",
+    "ctaMaterials": "Ver materiales"
+  },
+  "about": {
+    "title": "¿Quiénes somos?",
+    "description": "Comercializadora NS es una empresa ubicada en la Zona Industrial San Vicente de Maracay, dedicada a la compra y comercialización de metales reciclados. Ofrecemos precios justos, atención rápida y pago inmediato.",
+    "badge1": "Empresa venezolana",
+    "badge2": "Pago inmediato",
+    "badge3": "Maracay, Aragua"
+  },
+  "materials": {
+    "title": "¿Qué compramos?",
+    "subtitle": "Adquirimos una amplia variedad de metales ferrosos y no ferrosos.",
+    "items": [
+      { "name": "Hierro", "desc": "Estructuras, vigas, varillas y piezas de hierro en general" },
+      { "name": "Acero", "desc": "Chatarra de acero en cualquier presentación" },
+      { "name": "Aluminio", "desc": "Perfiles, latas, piezas y aluminio fundido" },
+      { "name": "Cobre", "desc": "Cable, tubería y piezas de cobre" },
+      { "name": "Bronce", "desc": "Piezas, válvulas y chatarra de bronce" },
+      { "name": "Zinc", "desc": "Láminas y piezas de zinc" },
+      { "name": "Plomo", "desc": "Baterías y piezas de plomo" },
+      { "name": "Inoxidable", "desc": "Acero inoxidable en cualquier presentación" }
+    ]
+  },
+  "howItWorks": {
+    "title": "¿Cómo funciona?",
+    "subtitle": "Proceso simple y transparente en tres pasos.",
+    "step1Title": "Contáctanos",
+    "step1Desc": "Escríbenos por WhatsApp o llámanos. Cuéntanos qué material tienes y la cantidad aproximada.",
+    "step2Title": "Evaluamos",
+    "step2Desc": "Revisamos el material, determinamos el precio según el mercado actual y te hacemos una oferta justa.",
+    "step3Title": "Pago inmediato",
+    "step3Desc": "Acordamos el lugar de entrega o retiro y realizamos el pago de forma inmediata."
+  },
+  "contact": {
+    "title": "Contacto y ubicación",
+    "subtitle": "Estamos en Maracay, Aragua. Escríbenos y te atendemos de inmediato.",
+    "whatsapp": "WhatsApp",
+    "email": "Correo electrónico",
+    "address": "Dirección",
+    "addressValue": "Zona Industrial San Vicente, Calle Campesina, Galpón N° 36, Maracay, Aragua 2103, Venezuela",
+    "ctaWhatsapp": "Abrir WhatsApp",
+    "ctaEmail": "Enviar correo"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "tagline": "Compramos metales en Maracay, Venezuela."
+  }
+}
