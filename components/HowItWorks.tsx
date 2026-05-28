@@ -52,11 +52,11 @@ export default function HowItWorks() {
                 <div className="hidden md:block absolute top-7 left-full w-full h-px bg-charcoal-600 -translate-x-4 z-0" />
               )}
 
-              <div className="relative z-10 flex items-center justify-center w-14 h-14 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 mb-5">
+              <div className="relative z-10 flex items-center justify-center w-14 h-14 rounded-xl bg-green-600/10 border border-green-600/30 text-green-400 mb-5">
                 {step.icon}
               </div>
 
-              <span className="text-xs font-black text-amber-500/60 tracking-widest mb-2">{step.num}</span>
+              <span className="text-xs font-black text-green-500/60 tracking-widest mb-2">{step.num}</span>
               <h3 className="text-white font-bold text-xl mb-2">{step.title}</h3>
               <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
             </div>

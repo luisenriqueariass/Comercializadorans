@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#top" className="flex items-center gap-2">
-            <span className="text-amber-500 font-black text-xl tracking-tight">NS</span>
+            <span className="text-green-500 font-black text-xl tracking-tight">NS</span>
             <span className="text-white font-semibold text-sm hidden sm:block">Comercializadora</span>
           </a>
 
@@ -57,7 +57,7 @@ export default function Navbar() {
             </button>
             <a
               href="#contact"
-              className="hidden sm:inline-flex items-center gap-1.5 bg-amber-500 hover:bg-amber-400 text-charcoal-900 text-sm font-bold px-4 py-2 rounded transition-colors"
+              className="hidden sm:inline-flex items-center gap-1.5 bg-green-600 hover:bg-green-500 text-white text-sm font-bold px-4 py-2 rounded transition-colors"
             >
               {t('cta')}
             </a>

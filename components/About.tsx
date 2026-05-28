@@ -20,7 +20,7 @@ export default function About() {
               key={badge}
               className="inline-flex items-center gap-2 bg-charcoal-700 border border-charcoal-600 rounded-full px-5 py-2 text-sm font-semibold text-gray-300"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+              <span className="w-1.5 h-1.5 rounded-full bg-green-500" />
               {badge}
             </span>
           ))}

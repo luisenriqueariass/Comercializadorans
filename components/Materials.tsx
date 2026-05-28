@@ -27,14 +27,14 @@ export default function Materials() {
           {items.map((item, i) => (
             <div
               key={i}
-              className="group relative bg-charcoal-800 border border-charcoal-700 hover:border-amber-500/50 rounded-xl p-6 transition-all hover:-translate-y-0.5"
+              className="group relative bg-charcoal-800 border border-charcoal-700 hover:border-green-600/50 rounded-xl p-6 transition-all hover:-translate-y-0.5"
             >
               <div className="text-3xl mb-3">{ICONS[i] ?? '🔧'}</div>
-              <h3 className="text-white font-bold text-lg mb-1 group-hover:text-amber-400 transition-colors">
+              <h3 className="text-white font-bold text-lg mb-1 group-hover:text-green-400 transition-colors">
                 {item.name}
               </h3>
               <p className="text-gray-500 text-sm leading-snug">{item.desc}</p>
-              <div className="absolute bottom-0 left-0 right-0 h-0.5 rounded-b-xl bg-amber-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+              <div className="absolute bottom-0 left-0 right-0 h-0.5 rounded-b-xl bg-green-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
             </div>
           ))}
         </div>

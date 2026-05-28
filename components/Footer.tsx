@@ -19,7 +19,7 @@ export default function Footer() {
     <footer className="bg-charcoal-900 border-t border-charcoal-700 py-10 px-4">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
-          <span className="text-amber-500 font-black text-lg">NS</span>
+          <span className="text-green-500 font-black text-lg">NS</span>
           <span className="text-gray-500 text-sm">{t('tagline')}</span>
         </div>
 
