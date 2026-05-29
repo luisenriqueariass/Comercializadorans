@@ -29,9 +29,9 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#top" className="flex items-center gap-2">
-            <span className="text-green-500 font-black text-xl tracking-tight">NS</span>
-            <span className="text-white font-semibold text-sm hidden sm:block">Comercializadora</span>
+          <a href="#top" className="flex items-center gap-2.5">
+            <img src="/logo.svg" alt="NS" width="28" height="38" className="flex-shrink-0" />
+            <span className="text-white font-bold text-sm hidden sm:block tracking-wide">Comercializadora <span className="text-brand-400">NS</span></span>
           </a>
 
           {/* Desktop links */}
@@ -57,7 +57,7 @@ export default function Navbar() {
             </button>
             <a
               href="#contact"
-              className="hidden sm:inline-flex items-center gap-1.5 bg-green-600 hover:bg-green-500 text-white text-sm font-bold px-4 py-2 rounded transition-colors"
+              className="hidden sm:inline-flex items-center gap-1.5 bg-brand-600 hover:bg-brand-500 text-white text-sm font-bold px-4 py-2 rounded transition-colors"
             >
               {t('cta')}
             </a>

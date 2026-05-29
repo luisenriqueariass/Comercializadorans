@@ -24,24 +24,28 @@
     "subtitle": "Adquirimos una amplia variedad de metales ferrosos y no ferrosos.",
     "categories": [
       {
-        "name": "Latón",
-        "items": ["Latón Chatarra", "Radiadores de Latón", "Radiadores Mixtos A/C"]
+        "name": "Neveras & Aires",
+        "items": ["Neveras", "Aires Acondicionados", "Motores Eléctricos y de Combustión"]
+      },
+      {
+        "name": "Radiadores",
+        "items": ["Radiadores de Latón", "Radiadores Mixtos A/C", "Radiadores de Aluminio"]
       },
       {
         "name": "Aluminio",
-        "items": ["Aluminio Perfil", "Aluminio Mixto", "Aluminio Duro", "Rad. de Aluminio", "Litografía", "Recorte Industrial"]
+        "items": ["Aluminio Perfil", "Aluminio Mixto", "Aluminio Duro", "Litografía", "Recorte Industrial", "Aerosoles", "Pote"]
       },
       {
         "name": "Acero e Hierro",
-        "items": ["Acero Corto", "Acero Largo", "Hierro Ligado", "Hierro Largo", "Calamina", "Aerosoles", "Pote"]
+        "items": ["Acero Corto", "Acero Largo", "Hierro Ligado", "Hierro Largo", "Calamina"]
       },
       {
         "name": "Plomo",
-        "items": ["Plomo Chatarra", "Plomo Lingote", "Batería"]
+        "items": ["Plomo Chatarra", "Plomo Lingote"]
       },
       {
-        "name": "Motores",
-        "items": ["Motores Eléctricos y de Combustión"]
+        "name": "Varios",
+        "items": ["Latón Chatarra", "Batería"]
       }
     ]
   },
@@ -63,7 +67,10 @@
     "address": "Dirección",
     "addressValue": "Zona Industrial San Vicente, Calle Campesina, Galpón N° 36, Maracay, Aragua 2103, Venezuela",
     "ctaWhatsapp": "Abrir WhatsApp",
-    "ctaEmail": "Enviar correo"
+    "ctaEmail": "Enviar correo",
+    "instagram": "Instagram",
+    "ctaInstagram": "Ver perfil",
+    "ctaMap": "Ver en Maps"
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

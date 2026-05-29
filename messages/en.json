@@ -24,24 +24,28 @@
     "subtitle": "We purchase a wide variety of ferrous and non-ferrous metals.",
     "categories": [
       {
-        "name": "Brass",
-        "items": ["Brass Scrap", "Brass Radiators", "A/C Mixed Radiators"]
+        "name": "Fridges & A/C",
+        "items": ["Refrigerators", "Air Conditioners", "Electric & Combustion Engines"]
+      },
+      {
+        "name": "Radiators",
+        "items": ["Brass Radiators", "A/C Mixed Radiators", "Aluminum Radiators"]
       },
       {
         "name": "Aluminum",
-        "items": ["Aluminum Profile", "Mixed Aluminum", "Hard Aluminum", "Aluminum Radiators", "Lithography", "Industrial Trim"]
+        "items": ["Aluminum Profile", "Mixed Aluminum", "Hard Aluminum", "Lithography", "Industrial Trim", "Aerosol Cans", "Aluminum Pots"]
       },
       {
         "name": "Steel & Iron",
-        "items": ["Short Steel", "Long Steel", "Alloy Iron", "Long Iron", "Galvanized Sheeting", "Aerosol Cans", "Steel Pots"]
+        "items": ["Short Steel", "Long Steel", "Alloy Iron", "Long Iron", "Galvanized Sheeting"]
       },
       {
         "name": "Lead",
-        "items": ["Lead Scrap", "Lead Ingot", "Battery"]
+        "items": ["Lead Scrap", "Lead Ingot"]
       },
       {
-        "name": "Engines",
-        "items": ["Electric & Combustion Engines"]
+        "name": "Miscellaneous",
+        "items": ["Brass Scrap", "Battery"]
       }
     ]
   },
@@ -63,7 +67,10 @@
     "address": "Address",
     "addressValue": "Zona Industrial San Vicente, Calle Campesina, Galpón N° 36, Maracay, Aragua 2103, Venezuela",
     "ctaWhatsapp": "Open WhatsApp",
-    "ctaEmail": "Send email"
+    "ctaEmail": "Send email",
+    "instagram": "Instagram",
+    "ctaInstagram": "View profile",
+    "ctaMap": "View on Maps"
   },
   "footer": {
     "rights": "All rights reserved.",
