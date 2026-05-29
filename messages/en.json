@@ -72,6 +72,39 @@
     "ctaInstagram": "View profile",
     "ctaMap": "View on Maps"
   },
+  "ourStory": {
+    "title": "Our Story",
+    "subtitle": "30 years of family, trust, and metals",
+    "description": "Comercializadora NS was born in Maracay in the early 1990s, founded by Luis Enrique Arias Ramírez with a simple vision: fair prices, honest service, and immediate payment for those who need to sell their metals. Today, three decades later, the business remains 100% family-owned — now operated alongside his four sons. What started as a small warehouse in the San Vicente Industrial Zone has become a reference in the metal trading sector across Aragua state.",
+    "stat1Value": "30+",
+    "stat1Label": "Years of experience",
+    "stat2Value": "100%",
+    "stat2Label": "Family business",
+    "stat3Value": "Always",
+    "stat3Label": "Immediate payment",
+    "quote": "\"Known for fair prices and keeping our word.\""
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Businesses and individuals who trust us.",
+    "items": [
+      {
+        "name": "Carlos M.",
+        "role": "Auto repair shop, Maracay",
+        "text": "I've been selling them workshop scrap for over 5 years. They always pay well and on the spot. I don't look for any other buyer."
+      },
+      {
+        "name": "Andreina R.",
+        "role": "Individual, Valencia",
+        "text": "I had a pile of aluminum sitting at home. I called them, they came, weighed it, and paid on the spot. Excellent service."
+      },
+      {
+        "name": "José L.",
+        "role": "Construction company, Aragua",
+        "text": "They are the perfect partner for disposing of our leftover iron and steel. Market price and no hassle."
+      }
+    ]
+  },
   "footer": {
     "rights": "All rights reserved.",
     "tagline": "Buying metals in Maracay, Venezuela."

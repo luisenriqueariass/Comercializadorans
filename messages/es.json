@@ -72,6 +72,39 @@
     "ctaInstagram": "Ver perfil",
     "ctaMap": "Ver en Maps"
   },
+  "ourStory": {
+    "title": "Nuestra historia",
+    "subtitle": "30 años de familia, confianza y metales",
+    "description": "Comercializadora NS nació en Maracay a principios de los años 90, fundada por Luis Enrique Arias Ramírez con una visión simple: ofrecer precios justos, trato honesto y pago inmediato a quienes necesitan vender sus metales. Hoy, tres décadas después, el negocio sigue siendo 100% familiar — ahora operado junto a sus cuatro hijos. Lo que comenzó como un pequeño galpón en la Zona Industrial San Vicente se convirtió en una referencia del sector en el estado Aragua.",
+    "stat1Value": "30+",
+    "stat1Label": "Años de experiencia",
+    "stat2Value": "100%",
+    "stat2Label": "Empresa familiar",
+    "stat3Value": "Pago",
+    "stat3Label": "Inmediato siempre",
+    "quote": "\"Nos conocen por el precio justo y la palabra cumplida.\""
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Empresas y personas que confían en nosotros.",
+    "items": [
+      {
+        "name": "Carlos M.",
+        "role": "Taller mecánico, Maracay",
+        "text": "Llevo más de 5 años vendiéndoles el material del taller. Siempre pagan bien y al momento. No busco otro comprador."
+      },
+      {
+        "name": "Andreina R.",
+        "role": "Particular, Valencia",
+        "text": "Tenía un montón de aluminio acumulado en casa. Los llamé, vinieron, pesaron y pagaron en el momento. Excelente servicio."
+      },
+      {
+        "name": "José L.",
+        "role": "Empresa de construcción, Aragua",
+        "text": "Para nosotros son el aliado perfecto para deshacernos del hierro y acero sobrante. Precio de mercado y sin complicaciones."
+      }
+    ]
+  },
   "footer": {
     "rights": "Todos los derechos reservados.",
     "tagline": "Compramos metales en Maracay, Venezuela."
