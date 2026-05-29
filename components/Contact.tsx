@@ -71,7 +71,7 @@ export default function Contact() {
 
             {/* Address */}
             <a
-              href="https://www.google.com/maps?q=10.242478,-67.631112"
+              href="https://maps.app.goo.gl/QDt6CQXDUuDTiAjG7"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-start gap-4 bg-charcoal-800 border border-charcoal-700 hover:border-brand-600/50 rounded-xl p-5 transition-all"

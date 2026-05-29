@@ -109,6 +109,7 @@ export default async function LocaleLayout({
               },
               sameAs: [
                 'https://www.instagram.com/cnsreciclaje',
+                'https://maps.app.goo.gl/QDt6CQXDUuDTiAjG7',
               ],
             }),
           }}
