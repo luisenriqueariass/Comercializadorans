@@ -15,45 +15,32 @@ export default function Testimonials() {
     <section className="bg-charcoal-800 py-20 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">
+        <div className="mb-12 max-w-2xl">
+          <span className="block h-1 w-12 bg-brand-500 mb-5" />
+          <h2 className="font-display text-4xl sm:text-5xl font-bold text-white uppercase tracking-tight mb-3">
             {t('title')}
           </h2>
-          <p className="text-gray-400 text-lg max-w-xl mx-auto">{t('subtitle')}</p>
+          <p className="text-gray-400 text-lg">{t('subtitle')}</p>
         </div>
 
-        {/* Cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Quotes */}
+        <div className="grid md:grid-cols-3 gap-px bg-charcoal-700 border border-charcoal-700">
           {items.map((item, index) => (
-            <div
+            <figure
               key={index}
-              className="bg-charcoal-900 border border-charcoal-700 rounded-2xl p-6 flex flex-col gap-4"
+              className="bg-charcoal-800 p-8 flex flex-col"
             >
-              {/* Stars */}
-              <div className="flex gap-1 text-brand-400">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-4 h-4 fill-current" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-
-              {/* Quote */}
-              <p className="text-gray-300 leading-relaxed flex-1">
-                &ldquo;{item.text}&rdquo;
-              </p>
-
-              {/* Author */}
-              <div className="border-t border-charcoal-700 pt-4 flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-brand-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
-                  {item.name.charAt(0)}
-                </div>
-                <div>
-                  <p className="text-white font-semibold text-sm">{item.name}</p>
-                  <p className="text-gray-500 text-xs">{item.role}</p>
-                </div>
-              </div>
-            </div>
+              <svg className="w-8 h-8 text-charcoal-600 mb-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+              </svg>
+              <blockquote className="text-gray-200 text-lg leading-relaxed flex-1">
+                {item.text}
+              </blockquote>
+              <figcaption className="mt-6 pt-5 border-t border-charcoal-700">
+                <p className="text-white font-semibold">{item.name}</p>
+                <p className="text-gray-500 text-sm">{item.role}</p>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </div>

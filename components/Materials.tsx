@@ -49,8 +49,9 @@ export default function Materials() {
   return (
     <section id="materials" className="bg-charcoal-900 py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">{t('title')}</h2>
+        <div className="mb-12 max-w-2xl">
+          <span className="block h-1 w-12 bg-brand-500 mb-5" />
+          <h2 className="font-display text-4xl sm:text-5xl font-bold text-white uppercase tracking-tight mb-3">{t('title')}</h2>
           <p className="text-gray-400 text-lg">{t('subtitle')}</p>
         </div>
 
@@ -58,7 +59,7 @@ export default function Materials() {
           {categories.map((cat, i) => (
             <div
               key={i}
-              className={`group bg-charcoal-800 border border-charcoal-700 hover:border-brand-600/40 rounded-2xl p-6 transition-all${
+              className={`group bg-charcoal-800 border border-charcoal-700 hover:border-brand-500 rounded-lg p-6 transition-colors duration-200${
                 /* Motores card spans full width on the last row if it's alone */
                 i === categories.length - 1 && categories.length % 3 === 1
                   ? ' sm:col-span-2 lg:col-span-1'
@@ -68,11 +69,11 @@ export default function Materials() {
               }`}
             >
               {/* Header */}
-              <div className="flex items-center gap-3 mb-5">
-                <div className="flex-shrink-0 w-11 h-11 rounded-xl bg-brand-600/10 border border-brand-600/20 flex items-center justify-center text-brand-400">
+              <div className="flex items-center gap-3 mb-5 pb-4 border-b border-charcoal-700">
+                <span className="flex-shrink-0 text-brand-400">
                   {CATEGORY_ICONS[i]}
-                </div>
-                <h3 className="text-white font-bold text-lg group-hover:text-brand-400 transition-colors">
+                </span>
+                <h3 className="font-display text-white font-semibold text-xl uppercase tracking-wide group-hover:text-brand-400 transition-colors">
                   {cat.name}
                 </h3>
               </div>

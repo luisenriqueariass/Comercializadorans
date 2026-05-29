@@ -33,11 +33,11 @@
       },
       {
         "name": "Aluminio",
-        "items": ["Aluminio Perfil", "Aluminio Mixto", "Aluminio Duro", "Litografía", "Recorte Industrial", "Aerosoles", "Pote"]
+        "items": ["Aluminio Perfil, Mixto y Duro", "Calamina, Litografía y Recorte Industrial", "Pote y Aerosoles"]
       },
       {
         "name": "Acero e Hierro",
-        "items": ["Acero Corto", "Acero Largo", "Hierro Ligado", "Hierro Largo", "Calamina"]
+        "items": ["Acero Corto y Largo", "Hierro Largo, Corto y Ligado"]
       },
       {
         "name": "Plomo",

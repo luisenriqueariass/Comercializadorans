@@ -31,7 +31,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#top" className="flex items-center gap-2.5">
             <img src="/logo.svg" alt="NS" width="28" height="38" className="flex-shrink-0" />
-            <span className="text-white font-bold text-sm hidden sm:block tracking-wide">Comercializadora <span className="text-brand-400">NS</span></span>
+            <span className="font-display text-white font-semibold text-base hidden sm:block uppercase tracking-wide leading-none whitespace-nowrap">Comercializadora <span className="text-brand-400">NS</span></span>
           </a>
 
           {/* Desktop links */}
@@ -40,7 +40,7 @@ export default function Navbar() {
               <a
                 key={l.href}
                 href={l.href}
-                className="text-gray-400 hover:text-white text-sm font-medium transition-colors"
+                className="text-gray-400 hover:text-white text-sm font-medium transition-colors whitespace-nowrap"
               >
                 {l.label}
               </a>
