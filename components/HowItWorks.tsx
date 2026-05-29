@@ -39,26 +39,22 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="bg-charcoal-800 py-20 px-4">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">{t('title')}</h2>
+        <div className="mb-12 max-w-2xl">
+          <span className="block h-1 w-12 bg-brand-500 mb-5" />
+          <h2 className="font-display text-4xl sm:text-5xl font-bold text-white uppercase tracking-tight mb-3">{t('title')}</h2>
           <p className="text-gray-400 text-lg">{t('subtitle')}</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {steps.map((step, i) => (
-            <div key={i} className="relative flex flex-col items-start">
-              {/* Connector line */}
-              {i < steps.length - 1 && (
-                <div className="hidden md:block absolute top-7 left-full w-full h-px bg-charcoal-600 -translate-x-4 z-0" />
-              )}
-
-              <div className="relative z-10 flex items-center justify-center w-14 h-14 rounded-xl bg-brand-600/10 border border-brand-600/30 text-brand-400 mb-5">
-                {step.icon}
+            <div key={i} className="relative flex flex-col items-start border-t-2 border-charcoal-700 pt-6">
+              <div className="flex items-baseline gap-3 mb-4">
+                <span className="font-display text-5xl font-bold text-brand-500 leading-none">{step.num}</span>
+                <span className="text-brand-400">{step.icon}</span>
               </div>
 
-              <span className="text-xs font-black text-brand-500/60 tracking-widest mb-2">{step.num}</span>
-              <h3 className="text-white font-bold text-xl mb-2">{step.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">{step.desc}</p>
+              <h3 className="font-display text-white font-semibold text-2xl uppercase tracking-wide mb-2">{step.title}</h3>
+              <p className="text-gray-400 leading-relaxed">{step.desc}</p>
             </div>
           ))}
         </div>

@@ -8,19 +8,19 @@ export default function About() {
   return (
     <section className="bg-charcoal-800 py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-black text-white mb-6">
+        <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white uppercase tracking-tight mb-6">
           {t('title')}
         </h2>
-        <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
+        <p className="text-gray-300 text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
           {t('description')}
         </p>
-        <div className="flex flex-wrap justify-center gap-3">
+        <div className="flex flex-wrap justify-center gap-x-8 gap-y-3">
           {badges.map((badge) => (
             <span
               key={badge}
-              className="inline-flex items-center gap-2 bg-charcoal-700 border border-charcoal-600 rounded-full px-5 py-2 text-sm font-semibold text-gray-300"
+              className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-gray-400"
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-brand-500" />
+              <span className="w-1.5 h-1.5 bg-brand-500" />
               {badge}
             </span>
           ))}

@@ -8,34 +8,22 @@ export default function Hero() {
       id="top"
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-charcoal-900"
     >
-      {/* Background texture */}
-      <div
-        className="absolute inset-0 opacity-5"
-        style={{
-          backgroundImage: `repeating-linear-gradient(
-            45deg,
-            #ffffff 0,
-            #ffffff 1px,
-            transparent 0,
-            transparent 50%
-          )`,
-          backgroundSize: '20px 20px',
-        }}
-      />
-
-      {/* Amber glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-600/10 rounded-full blur-[120px] pointer-events-none" />
+      {/* Subtle radial gradient — brand glow */}
+      <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(ellipse_80%_50%_at_50%_60%,rgba(30,136,200,0.08),transparent)]" />
 
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center pt-24 pb-16">
         {/* Label */}
-        <div className="inline-flex items-center gap-2 bg-brand-600/10 border border-brand-600/30 rounded-full px-4 py-1.5 mb-8">
-          <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse" />
-          <span className="text-brand-400 text-xs font-semibold uppercase tracking-widest">
+        <div className="inline-flex items-center gap-2 border border-charcoal-600 rounded-full px-4 py-1.5 mb-8">
+          <svg className="w-3.5 h-3.5 text-brand-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span className="text-gray-400 text-xs font-medium">
             Maracay, Aragua · Venezuela
           </span>
         </div>
 
-        <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-tight tracking-tight mb-6">
+        <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl font-bold text-white uppercase leading-[0.95] tracking-tight mb-6">
           {t('headline')}
         </h1>
 
